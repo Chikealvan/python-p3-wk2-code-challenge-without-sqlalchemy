@@ -5,9 +5,9 @@ import os
 # Adjust the path to the parent directory
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from lib.Customer import Customer
-from lib.Review import Review
-from lib.Restaurant import Restaurant
+from lib.customer import Customer
+from lib.review import Review
+from lib.restaurant import Restaurant
 
 # Creating Instances for restaurant  and review
 restaurant1 = Restaurant("Gray's BBQ")

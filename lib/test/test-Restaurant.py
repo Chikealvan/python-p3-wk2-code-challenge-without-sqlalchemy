@@ -1,7 +1,7 @@
 import unittest
 
-from Review import Review
-from Restaurant import Restaurant
+from lib.review import Review
+from lib.restaurant import Restaurant
 
 class TestRestaurant(unittest.TestCase):
 

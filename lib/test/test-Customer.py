@@ -1,6 +1,6 @@
 import unittest
-from Review import Review
-from Customer import Customer
+from lib.review import Review
+from lib.customer import Customer
 
 class TestCustomer(unittest.TestCase):
 
